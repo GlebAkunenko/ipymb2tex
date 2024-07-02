@@ -53,4 +53,10 @@ start_button.grid(column=0, row=2, sticky='we', columnspan=2, padx=20, pady=20)
 message = ctk.CTkLabel(app, text='', font=('Arial', 26))
 message.grid(column=0, row=3, sticky='we', columnspan=2, padx=20, pady=20)
 
+version = ctk.CTkLabel(app, text='v1.0.0')
+version.grid(column=1, row=4, sticky='e')
+
+link = ctk.CTkLabel(app, text='https://github.com/GlebAkunenko/ipymb2tex')
+link.grid(column=0, row=4, sticky='w')
+
 app.mainloop()
